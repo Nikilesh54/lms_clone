@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Modern Learning Management System (LMS) Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive Learning Management System built with React, TypeScript, and Tailwind CSS.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Core Pages
+1. **Dashboard**
+   - Student/instructor view
+   - Course progress tracking
+   - Upcoming deadlines
+   - Announcements feed
 
-### `npm start`
+2. **Course Catalog**
+   - Filterable course grid
+   - Search functionality
+   - Category filtering
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Course Page**
+   - Video player (supports MP4, WebM, MOV, AVI, MKV)
+   - PDF materials viewer
+   - Interactive quiz interface
+   - Progress tracking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **User Profile**
+   - Account settings
+   - Course enrollment history
+   - Achievements tracking
 
-### `npm test`
+5. **Admin Panel**
+   - Course management
+   - User administration
+   - Content moderation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technical Features
+- Responsive design (mobile, tablet, desktop)
+- Modern React patterns with hooks
+- TypeScript for type safety
+- Tailwind CSS for styling
+- React Router for navigation
+- Mock data for development
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Design System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Colors
+- Primary: #3A86FF
+- Background: #FFFFFF
+- Text: #333333
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Components
+- Modern, clean UI components
+- Consistent styling
+- Responsive design patterns
+- Loading states for data operations
 
-### `npm run eject`
+## Development
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+- Node.js 16+
+- npm or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Commands
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Improvements
+- Backend API integration
+- Real-time notifications
+- Advanced analytics
+- Social learning features
+- Gamification elements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Sample Screenshots
+![Dashboard](public/img.png)
+![Course Catalog](public/img.png)
